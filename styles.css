@@ -1,0 +1,166 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+
+}
+body h2{
+    font-size: 26px;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+  
+    display: flex;
+    justify-content: center;
+  
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 16px;
+    font-size: large;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+    
+}
+
+#about, #projects, #skills, #contact {
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.project {
+    margin: 2em 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+ .nalin,td,tr,th {
+    border: #333 double;
+    border-width: 1px;
+    margin: 20px 10px;
+
+ }
+ table.nalin{
+    margin: 5px 10px;
+    padding: 1px;
+ }
+ .nalin td{
+    margin: 10px 5px 10px 5px;
+ }
+ .nalin{
+    height: max-content;
+    margin: 0px;
+ }
+ #about h2 {
+    padding: 0px;
+margin-top: 5px;
+    margin-bottom:  5px;
+    font: size 25px; ;
+ }
+ #about{
+    padding: 0px;
+    margin: 5px 10px 5px 10px;
+ }
+ #projects{
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+ }
+ .project {
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+    font-size: 18px;
+ }
+ .projects h1 {
+    font-size:25px;
+    padding: 5px;
+    margin: 0px;
+ }
+ .project a{
+    text-decoration: none;
+    border-radius: 2px;
+    border: #333 solid;
+    padding: 5px;
+    margin: 20px 0px;
+    align-items: center;
+    color: blueviolet;
+    cursor: pointer;
+ }
+  header a:hover{
+    background-color:black;
+ }
+.sp a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 16px;
+    margin-top: 16px;  
+}
+.sp {
+    text-align: left;
+    margin: 5px 10px;
+    padding: 5px;
+}
+.sp h3{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.sp img{
+    position: relative;
+  top: 5px;
+}
+#skills{
+    
+    text-align: left;
+    margin: 10px;
+
+}
+#skills h2{
+text-align: center;
+font-size: 27px;
+}
+#skills ul{
+    list-style: none;
+    font-size: 25px;
+}
+#contact{
+    padding: 0;
+
+}
+#contact input,button,label,textarea{
+    margin: 10px 10px;
+}
+#contact input{
+    text-align: justify;
+    
+}
+textarea{
+    position: relative;
+    top: 25px;
+    right: 12px;
+}
+#home p{
+    margin-top: 16px;
+}
